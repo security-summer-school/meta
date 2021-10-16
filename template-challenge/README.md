@@ -1,14 +1,14 @@
-# Name: H-Duck
+# Name: Web/Binary: Example Name
 
 ## Description
 
-Get the flag from [url]http://141.85.224.103:8001/[/url].
+Get the flag from [url]http://...:.../[/url].
 
-Score: 100
+Score: TODO
 
 ## Vulnerability
 
-Weak credentials, the server tells you if only the username is correct, allowing username enumeration.
+TODO
 
 ## Exploit
 
@@ -16,7 +16,7 @@ Script in `./sol/solution.sh`
 
 ## Environment
 
-Apache web server with PHP support (deployable as a Docker container using files in `deploy/` folder)
+Apache web server with PHP support (deployable as a Docker container using files in `deploy/` folder).
 
 ## Deploy
 

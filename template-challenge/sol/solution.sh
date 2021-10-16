@@ -1,4 +1,6 @@
 #!/bin/bash
+
+HOST="141.85.224.108"
 PORT=8001
 
 if [[ $# -eq 0 ]]
@@ -12,8 +14,7 @@ then
     url='http://127.0.0.1:'"$PORT"
 elif [[ "$1" == "remote" ]] && [[ -z "$2" ]]
 then
-    url='http://141.85.224.108:'"$PORT"
+    url='http://'"$HOST"':'"$PORT"
 else
     url="$1"':'"$2"
 fi
-
