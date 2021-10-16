@@ -1,4 +1,4 @@
-# Name: Web/Binary: Example Name
+# Name: Web/Binary: Session Name: Challenge Name
 
 ## Description
 
